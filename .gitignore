@@ -1,4 +1,5 @@
 .terraform/
-terraform.tf*
+terraform.tfstate
 .git/
 path
+terraform.tfstate.backup
