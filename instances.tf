@@ -12,7 +12,6 @@ resource "aws_instance" "web" {
   }
 }
 
-
 resource "aws_security_group" "web" {
   name = "web"
   description = "Allow web from the internet"
